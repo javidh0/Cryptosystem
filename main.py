@@ -8,3 +8,5 @@ class PublicKeyCrypto:
         random.seed(random_seed+Range[1])
         self.__div = random.randint(Range[0], Range[1])
         print("Public Key Generation Succesfull")
+    def Encypt(self, value:str):
+        pass
