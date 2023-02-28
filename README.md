@@ -12,3 +12,8 @@ eg: "Javidh" is encrypted and if the cipher is (-12, 3, 23, 34, -24, -2) for a R
 ###### random_seed: int = 1, <br />
 ###### Range: list[int] = [2, 100] <br />
 ###### )
+* Encryption method:
+    * $$ y = f(x) $$ ; y is chipher and x is plain text
+    * f --> reaminder of $$ power^x/div $$ ; power, div $$ &isin $$ Range
+* init(random_seed: int = 1, Range: list[int] = [2, 100]) 
+    * Generates a random public key 
