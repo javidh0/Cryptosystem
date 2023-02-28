@@ -1,4 +1,5 @@
 import random
+import math
 class PublicKeyCrypto:
     __power = None
     __div = None
@@ -8,5 +9,7 @@ class PublicKeyCrypto:
         random.seed(random_seed+Range[1])
         self.__div = random.randint(Range[0], Range[1])
         print("Public Key Generation Succesfull")
+    def __Compute(self, a):
+        return chr(math.pow(ord(a), self.__power) % self.__div)
     def Encypt(self, value:str):
-        pass
+        return str(map(self.__Compute, tuple(value)))
