@@ -8,7 +8,7 @@ eg: "Javidh" is encrypted and if the cipher is (-12, 3, 23, 34, -24, -2) for a R
 
 # Class Funtions
 ## PublicKeyCrypto()
-### class PublicKeyCrypto( <br />
-###    random_seed: int = 1, <br />
-###    Range: list[int] = [2, 100] <br />
-### )
+###### class PublicKeyCrypto( <br />
+###### random_seed: int = 1, <br />
+###### Range: list[int] = [2, 100] <br />
+###### )
