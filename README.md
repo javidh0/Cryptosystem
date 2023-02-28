@@ -1,2 +1,4 @@
 # Cryptosystem
-#Encrypted tuple
+# Encrypted tuple
+## Definition 
+The tuple of encrypted elements(char) in order.
