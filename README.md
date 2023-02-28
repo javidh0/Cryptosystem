@@ -13,6 +13,6 @@ eg: "Javidh" is encrypted and if the cipher is (-12, 3, 23, 34, -24, -2) for a R
 ### Range: list[int] = [2, 100] )
 * Encryption method:
     * $y = f(x)$ ; y is chipher and x is plain text
-    * $f --> power^x \% div$ ; power, div &#x2208; &#8477;
+    * $f --> Remainder\left(power^x /div\right)$ ; power, div &#x2208; &#8477;
 * init(random_seed: int = 1, Range: list[int] = [2, 100]) 
     * Generates a random public key 
