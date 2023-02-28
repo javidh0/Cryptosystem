@@ -12,10 +12,6 @@ class PublicKeyCrypto:
     def __Compute(self, a):
         a1 = math.pow(self.__power, ord(a))
         a2 = int(math.remainder(a1, self.__div))
-        return str(a2)
+        return a2
     def Encypt(self, value:str):
-        print(self.__power, self.__div)
-        tr = ""
-        for i in value:
-            tr += self.__Compute(i)
-        return tr.encode()
+        return tuple(map(self.__Compute, value))
