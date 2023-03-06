@@ -1,6 +1,6 @@
 import random
 import math
-
+ 
 class PublicKeyCrypto:
     __power = None
     __div = None
